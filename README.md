@@ -19,6 +19,8 @@ A curated list of tools relating to the brainfuck esoteric language
 
 # Implementations
 
+[View this table with sorting](https://markdown-table.nullvoxpopuli.com/?file=https://raw.githubusercontent.com/unhighghlow/awesome-brainfuck/refs/heads/main/README.md)
+
 --------------------------
 | Name | Description | Type | Language | Author | Year |
 | ---- | ----------- | ---- | -------- | ------ | ---- |
