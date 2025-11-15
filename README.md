@@ -47,6 +47,8 @@ A curated list of tools relating to the brainfuck esoteric language
 | [Sade](https://github.com/aartaka/sade) | Infinitely Optimizable Brainfuck-to-Lisp Compiler | Compiler to LISP | Common Lisp | Artyom Bologov | 2023 |
 | [bfc-wilfred](https://github.com/Wilfred/bfc) [^unclear-names] | An industrial-grade brainfuck compiler | Compiler | Rust | Wilfred Hughes | 2023 |
 | [bfc-muxutruk](https://github.com/Muxutruk2/bfc) [^unclear-names] | Brainfuck compiler written in rust | JIT Compiler | Rust | Muxutruk | 2025 |
+| [brainfuck.nix](https://github.com/jim3692/brainfuck.nix) | Brainfuck interpreter, implemented in pure Nix | Interpreter | Nix | jim3692 | 2024 |
+| [bf.sed](https://github.com/rdebath/Brainfuck/blob/master/extras/bf.sed) | A BF interpreter in SED | Interpreter | Sed | rdebath | 2015 |
 --------------------------
 
 
