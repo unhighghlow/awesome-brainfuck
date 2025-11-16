@@ -56,10 +56,14 @@ A curated list of tools relating to the brainfuck esoteric language
 | [Brainfuck-in-Batch](https://github.com/yyny/Brainfuck-In-Batch) | Its brainfuck in batch! | Interpreter | Batch | Jonne Ransijn | 2016 |
 | [brainfuck.bat](https://gist.github.com/tnhung2011/f3ab20154b21c36fe878a47c13d68dab) | A batchfile Brainfuck interpreter | Interpreter | Batch | tnhung2011 | 2025 |
 | [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) | Brainfuck interpreter with advanced features | Interpreter | C | highghlow | 2025 |
+| [dbfi](https://brainfuck.org/dbfi.b) | Shortest self-interpreter | Interpreter | Brainfuck | Daniel B Cristofani | 2020 |
 --------------------------
 
 # Higher level languages
 
+- [VBF](https://vilgotanl.github.io/Bf-Transpilers/old_broken_or_scrapped/vbf/vbf_transpiler_and_interpreter/index.html) -- by VigotanL (2021)
+- [BFFuck](https://esolangs.org/wiki/BFFuck) -- by None1 (2023)
+- [brain](https://github.com/sunjay/brain) -- by Sunjay Varma (2017)
 - [Ha genbfi](https://www.iwriteiam.nl/Ha_genbfi_c.txt) [^unclear-names] (from [Ha bf inter](https://www.iwriteiam.nl/Ha_bf_inter.html)) -- by Frans Faase (2007)
 
 
