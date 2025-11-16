@@ -49,11 +49,14 @@ A curated list of tools relating to the brainfuck esoteric language
 | [bfc-muxutruk](https://github.com/Muxutruk2/bfc) [^unclear-names] | Brainfuck compiler written in rust | JIT Compiler | Rust | Muxutruk | 2025 |
 | [brainfuck.nix](https://github.com/jim3692/brainfuck.nix) | Brainfuck interpreter, implemented in pure Nix | Interpreter | Nix | jim3692 | 2024 |
 | [bf.sed](https://github.com/rdebath/Brainfuck/blob/master/extras/bf.sed) | A BF interpreter in SED | Interpreter | Sed | rdebath | 2015 |
+| [Ha bf inter](https://www.iwriteiam.nl/Ha_bf_inter.html) [^unclear-names] | BF interpreter written in BF | Interpreter | Brainfuck | Frans Faase | 2007 |
+| [bfck](https://github.com/gus-caribe/bfck) | A CLI interpreter for brainf**ck esolang written in Dart | Interpreter | Dart | Gustavo Cardoso Ribeiro | 2023 |
+| [Haskell BF](https://gitlab.com/Hakerh400/haskell-projects/-/blob/master/bf/Main.hs) [^unclear-names] | Brainfuck interpreter in Haskell | Interpreter | Haskell | Hackerh400 | 2023 |
+| [Scratch BF](https://scratch.mit.edu/projects/1196711936) [^unclear-names] | Brainfuck interpreter in Scratch | Interpreter | Scratch | HGDNski | 2025 |
+| [Brainfuck-in-Batch](https://github.com/yyny/Brainfuck-In-Batch) | Its brainfuck in batch! | Interpreter | Batch | Jonne Ransijn | 2016 |
+| [brainfuck.bat](https://gist.github.com/tnhung2011/f3ab20154b21c36fe878a47c13d68dab) | A batchfile Brainfuck interpreter | Interpreter | Batch | tnhung2011 | 2025 |
+| [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) | Brainfuck interpreter with advanced features | Interpreter | C | highghlow | 2025 |
 --------------------------
-
-
-## Self-interpreters
-- [Ha bf inter](https://www.iwriteiam.nl/Ha_bf_inter.html) [^unclear-names] -- by Frans Faase (2007)
 
 # Higher level languages
 
