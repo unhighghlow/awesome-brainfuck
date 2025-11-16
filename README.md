@@ -64,7 +64,25 @@ A curated list of tools relating to the brainfuck esoteric language
 - [VBF](https://vilgotanl.github.io/Bf-Transpilers/old_broken_or_scrapped/vbf/vbf_transpiler_and_interpreter/index.html) -- by VigotanL (2021)
 - [BFFuck](https://esolangs.org/wiki/BFFuck) -- by None1 (2023)
 - [brain](https://github.com/sunjay/brain) -- by Sunjay Varma (2017)
+- [BFBASIC](https://github.com/mzattera/bfbasic) -- by Jon Ripley (2005)
 - [Ha genbfi](https://www.iwriteiam.nl/Ha_genbfi_c.txt) [^unclear-names] (from [Ha bf inter](https://www.iwriteiam.nl/Ha_bf_inter.html)) -- by Frans Faase (2007)
 
+# Software
+- [Brainfuck Enterprise Solutions](https://github.com/bf-enterprise-solutions)
+  - [ed.bf](https://github.com/bf-enterprise-solutions/ed.bf) -- Infinitely configurable integrated IDE and text editor 
+  - [os.bf](https://github.com/bf-enterprise-solutions/os.bf) -- A next-generation high-performance operating system focused on enterprise-level resilience
+  - [str.bf](https://github.com/bf-enterprise-solutions/str.bf) -- High efficiency string manipulation in Brainfuck, re-imagined.
+  - [meta.bf](https://github.com/bf-enterprise-solutions/meta.bf) -- Cutting-edge, blazing fast embeddable Brainfuck metainterpreter that is the beating heart of our resilient blade servers
+- [Rdebath's collection](https://github.com/rdebath/Brainfuck)
+  - [bitwidth.b](https://github.com/rdebath/Brainfuck/blob/master/bitwidth.b) -- Brainfuck torture test
+  - [a lot of tests](https://github.com/rdebath/Brainfuck/tree/master/testing)
+- [brainfuck.org](https://brainfuck.org)
+  - [life.b](https://brainfuck.org/life.b) -- Conway's Game of Life
+  - [sierpinski.b](https://brainfuck.org/sierpinski.b) -- Display Sierpinski triangle
+- [mandelbrot.b](https://github.com/ErikDubbelboer/brainfuck-jit/blob/master/mandelbrot.bf) -- A mandelbrot set fractal viewer
+- [Lost Kingdom](https://jonripley.com/i-fiction/games/LostKingdomBF) -- World's first Brainfuck text adventure
+
+# Editor Support
+- [Vim syntax file](https://github.com/rdebath/Brainfuck/blob/master/bf.vim)
 
 [^unclear-names]: Does not have a distinct name. The name used was chosen by me 
