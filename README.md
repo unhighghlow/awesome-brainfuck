@@ -67,6 +67,7 @@ A curated list of tools relating to the brainfuck esoteric language
 - [BFBASIC](https://github.com/mzattera/bfbasic) -- by Jon Ripley (2005)
 - [c2bf](https://github.com/iacgm/c2bf) -- the C programming language by Ian Graham Martinez (2025)
 - [Ha genbfi](https://www.iwriteiam.nl/Ha_genbfi_c.txt) [^unclear-names] (from [Ha bf inter](https://www.iwriteiam.nl/Ha_bf_inter.html)) -- by Frans Faase (2007)
+- [Bfun (Pythonic)](https://github.com/ShanThatos/compile-pythonic-to-bf) -- by Shanth Koka (2024)
 
 # Software
 - [Brainfuck Enterprise Solutions](https://github.com/bf-enterprise-solutions)
@@ -83,7 +84,9 @@ A curated list of tools relating to the brainfuck esoteric language
 - [mandelbrot.b](https://github.com/ErikDubbelboer/brainfuck-jit/blob/master/mandelbrot.bf) -- A mandelbrot set fractal viewer
 - [Lost Kingdom](https://jonripley.com/i-fiction/games/LostKingdomBF) -- World's first Brainfuck text adventure
 
-# Editor Support
+# IDEs
 - [Vim syntax file](https://github.com/rdebath/Brainfuck/blob/master/bf.vim)
+- [Braintease](https://braintease.dev) 
+- [BF Designer](https://antfs10.itch.io/brainfuck-designer)
 
 [^unclear-names]: Does not have a distinct name. The name used was chosen by me 
