@@ -65,6 +65,7 @@ A curated list of tools relating to the brainfuck esoteric language
 - [BFFuck](https://esolangs.org/wiki/BFFuck) -- by None1 (2023)
 - [brain](https://github.com/sunjay/brain) -- by Sunjay Varma (2017)
 - [BFBASIC](https://github.com/mzattera/bfbasic) -- by Jon Ripley (2005)
+- [c2bf](https://github.com/iacgm/c2bf) -- the C programming language by Ian Graham Martinez (2025)
 - [Ha genbfi](https://www.iwriteiam.nl/Ha_genbfi_c.txt) [^unclear-names] (from [Ha bf inter](https://www.iwriteiam.nl/Ha_bf_inter.html)) -- by Frans Faase (2007)
 
 # Software
