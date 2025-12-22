@@ -1,6 +1,13 @@
-{ lib, stdenv, fetchFromGitHub, gcc, python3 }:
+pkgs:
 
-let mkAwib = ({
+let awib-pkg = ({
+  lib,
+  stdenv,
+  fetchFromGitHub,
+  gcc,
+  bash,
+  tcl,
+  python3,
   enableC ? true,
   enableTcl ? false,
   enableBash ? false,
@@ -27,12 +34,24 @@ let mkAwib = ({
     '' + (lib.optionalString enableC ''
       cp awib.b awib.c
       gcc -std=c99 awib.c -o awib-c
+    '') + (lib.optionalString enableTcl ''
+      echo "#!${tcl}/bin/tclsh" > awib-tcl
+      cat awib.b >> awib-tcl
+      chmod +x awib-tcl
+    '') + (lib.optionalString enableBash ''
+      echo "#!${bash}/bin/bash" > awib-bash
+      cat awib.b >> awib-bash
+      chmod +x awib-bash
     '');
 
     installPhase = ''
       mkdir -p $out/bin
     '' + (lib.optionalString enableC ''
       install -m775 awib-c $out/bin/awib-c
+    '') + (lib.optionalString enableBash ''
+      install -m775 awib-bash $out/bin/awib-bash
+    '') + (lib.optionalString enableTcl ''
+      install -m775 awib-tcl $out/bin/awib-tcl
     '') + ''
       ln -s $out/bin/${
         if enableC then
@@ -46,16 +65,16 @@ let mkAwib = ({
     '';
 
     meta = {
-      description = "a brainfuck compiler written in brainfuck";
+      description = "A brainfuck compiler written in brainfuck";
       mainProgram = "awib";
 
       license = lib.licenses.gpl3Only;
     };
   }
 ); in rec {
-  awib-c = mkAwib {};
-  awib-tcl = mkAwib { enableC = false; enableTcl = true; };
-  awib-bash = mkAwib { enableC = false; enableBash = true; };
-  awib-full = mkAwib { enableC = true; enableTcl = true; enableBash = true; };
-  awib = awib-c;
+  awib = pkgs.callPackage awib-pkg { };
+  awib-c = awib;
+  awib-tcl = awib.override { enableC = false; enableTcl = true; };
+  awib-bash = awib.override { enableC = false; enableBash = true; };
+  awib-full = awib.override { enableC = true; enableTcl = true; enableBash = true; };
 }

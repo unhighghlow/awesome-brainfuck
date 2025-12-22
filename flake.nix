@@ -16,7 +16,7 @@
       bff4 = pkgs.callPackage ./bff4 {};
       bffsree = pkgs.callPackage ./bffsree {};
       esotope-bfc-3 = pkgs.callPackage ./esotope-bfc/3.nix {};
-      awibPackages = pkgs.callPackage ./awib {};
+      awibPackages = import ./awib pkgs;
     });
   };
 }
