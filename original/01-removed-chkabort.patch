@@ -1,0 +1,12 @@
+diff --git a/bfi.c b/bfi.c
+index 1da2692..c5fc40f 100644
+--- a/bfi.c
++++ b/bfi.c
+@@ -41,7 +41,6 @@ void interpret(char *c)
+ 			puts("RANGE ERROR"), exit(0);
+ 	}
+ 	r--;
+-	chkabort();
+ }
+ 
+ main(int argc,char *argv[])

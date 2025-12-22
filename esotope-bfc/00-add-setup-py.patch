@@ -1,0 +1,16 @@
+diff --git a/setup.py b/setup.py
+index e69de29..85d69bf 100644
+--- a/setup.py
++++ b/setup.py
+@@ -0,0 +1,11 @@
++#!/usr/bin/env python
++
++from setuptools import setup, find_packages
++
++setup(name='esotope-bfc',
++      version='3.0',
++      # Modules to import from other scripts:
++      packages=[".", "bfc", "bfc.opt", "bfc.parser", "bfc.codegen"],
++      # Executables
++      scripts=["esotope-bfc.py"],
++     )

@@ -1,0 +1,10 @@
+diff --git a/bfi.c b/bfi.c
+index 47feed6..1da2692 100644
+--- a/bfi.c
++++ b/bfi.c
+@@ -1,4 +1,5 @@
+ #include <stdio.h>
++#include <stdlib.h>
+ 
+ int  p, r, q;
+ char a[5000], f[5000], b, o, *s=f;

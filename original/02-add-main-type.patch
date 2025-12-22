@@ -1,0 +1,13 @@
+diff --git a/bfi.c b/bfi.c
+index c5fc40f..f964018 100644
+--- a/bfi.c
++++ b/bfi.c
+@@ -43,7 +43,7 @@ void interpret(char *c)
+ 	r--;
+ }
+ 
+-main(int argc,char *argv[])
++int main(int argc,char *argv[])
+ {
+ 	FILE *z;
+ 
