@@ -36,7 +36,7 @@ A curated list of tools relating to the brainfuck esoteric language
 > nix shell github:highghlow/awesome-brainfuck#<NAME>
 > ```
 >
-> Some interpreters have unfree licenses (or have no license, which count as an unfree license). To run such an interpreter use:
+> Some interpreters have unfree licenses (or have no license, which counts as an unfree license). To run such an interpreter use:
 > ```
 > NIXPKGS_ALLOW_UNFREE=1 nix shell git+https://codeberg.org/highghlow/awesome-brainfuck#<NAME> --impure
 > ```
@@ -85,6 +85,10 @@ A curated list of tools relating to the brainfuck esoteric language
 | [brainfuck.bat](https://gist.github.com/tnhung2011/f3ab20154b21c36fe878a47c13d68dab) | A batchfile Brainfuck interpreter | Interpreter | Batch | tnhung2011 | 2025 | |
 | [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) | Brainfuck interpreter with advanced features | Interpreter | C | highghlow | 2025 | |
 | [dbfi](https://brainfuck.org/dbfi.b) | Shortest self-interpreter | Interpreter | Brainfuck | Daniel B Cristofani | 2020 | |
+| [sbi](https://brainfuck.org/sbi.c) | A clean and simple, but slow brainfuck interpreter | Interpreter | C | Daniel B Cristofani | 2006 | |
+| [qdb](https://brainfuck.org/qdb.c) | Quick and dirty brainfuck interpreter | Interpreter | C | Daniel B Cristofani | 2020 | |
+| [bcci](https://brainfuck.org/bcci.c) | The unreasonably restrictive, score-computing interpreter used for BFCC | Interpreter | C | Daniel B Cristofani | 2004 | |
+| [Visual Brainfuck for Applications](https://codeberg.org/highghlow/visual-brainfuck) | Brainfuck Interpreter in VBA | Interprer | VBA | highghlow | 2026 | |
 --------------------------
 
 # Higher level languages
