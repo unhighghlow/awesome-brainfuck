@@ -105,8 +105,8 @@ A curated list of tools relating to the brainfuck esoteric language
 
 # Higher level languages
 
-- :star: [BFFuck](https://esolangs.org/wiki/BFFuck) -- by None1 (2023)
-- :star: [VBF](https://vilgotanl.github.io/Bf-Transpilers/old_broken_or_scrapped/vbf/vbf_transpiler_and_interpreter/index.html) -- by VigotanL (2021)
+- <sub>:star:</sub> [BFFuck](https://esolangs.org/wiki/BFFuck) -- by None1 (2023)
+- <sub>:star:</sub> [VBF](https://vilgotanl.github.io/Bf-Transpilers/old_broken_or_scrapped/vbf/vbf_transpiler_and_interpreter/index.html) -- by VigotanL (2021)
 - [brain](https://github.com/sunjay/brain) -- by Sunjay Varma (2017)
 - [BFBASIC](https://github.com/mzattera/bfbasic) -- by Jon Ripley (2005)
 - [c2bf](https://github.com/iacgm/c2bf) -- the C programming language by Ian Graham Martinez (2025)
