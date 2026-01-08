@@ -27,7 +27,7 @@ A curated list of tools relating to the brainfuck esoteric language
 - [awib](https://github.com/matslina/awib) -- Cursed polyglot experiment that compiles to everything
 - [dbfi](https://brainfuck.org/dbfi.b) -- A famous and tiny brainfuck meta-interpreter
 - [P‴ (tritium)](https://github.com/rdebath/Brainfuck/tree/master/tritium) -- One of the fastest, and maybe the fastest interpreter (that also features a compiler to x86 assembly and C, as well as JIT)
-- [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) -- My own interpreter. It's not insanely fast, but does come with a nice debugger.
+- [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) -- My own interpreter. It's not terribly fast, but does come with a nice debugger.
 
 ## Full table
 
