@@ -59,7 +59,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [esotope-bfc](https://github.com/lifthrasiir/esotope-bfc) | The world's most optimizing Brainfuck-to-something compiler | Compiler to C | Python 2 | Kang Seonghoon | 2009 |  |
 | [awib](https://github.com/matslina/awib) | a brainfuck compiler written in brainfuck | Compiler to i686-linux, C, Ruby, Go, Tcl, Java and Rust | Brainfuck | Mats Linander  | 2015 | `awibPackages.awib` |
 | [smolbf](https://gist.github.com/lifthrasiir/596667) [^unclear-names] | The world's smallest Brainfuck interpreter | Interpreter | C | Kang Seonghoon | 2010 |  |
-| [Reb](https://github.com/aartaka/reb) | regex-based Brainfuck toolkit | Interpreter, Compiler to C | C | Artyom Bologov | 2024 | |
+| [Reb](https://github.com/aartaka/reb) | regex-based Brainfuck toolkit | Interpreter, Compiler to C | C | Artyom Bologov | 2024 | `reb` |
 | [BrainForked](https://github.com/JohnCGriffin/BrainForked/) | Fast BF interpreter in C++11 | Interpreter | C++ | John Griffin | 2020 | |
 | [编译器](https://www.luogu.com/article/1zm75exp) | BFCompiler |  | C | tiger2005 | 2018 | |
 | [none1bf](https://esolangs.org/wiki/Brainfuck_C%2B%2B_interpreter) [^unclear-names] | An optimizing brainfuck interpreter | Interpreter | C++ | None1 | 2023 | |
