@@ -11,4 +11,5 @@ in
   awibPackages = import ./awib pkgs;
   reb = pkgs.callPackage ./reb { };
   tritium = pkgs.callPackage ./tritium { };
+  brainforked = pkgs.callPackage ./brainforked { };
 }
