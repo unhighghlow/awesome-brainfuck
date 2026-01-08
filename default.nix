@@ -12,4 +12,5 @@ in
   reb = pkgs.callPackage ./reb { };
   tritium = pkgs.callPackage ./tritium { };
   brainforked = pkgs.callPackage ./brainforked { };
+  none1bf = pkgs.callPackage ./none1bf { };
 }

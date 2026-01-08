@@ -74,7 +74,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [Reb](https://github.com/aartaka/reb) | regex-based Brainfuck toolkit | Interpreter, Compiler to C | C | Artyom Bologov | 2024 | `reb` |
 | [BrainForked](https://github.com/JohnCGriffin/BrainForked/) | Fast BF interpreter in C++11 | Interpreter | C++ | John Griffin | 2020 | `brainforked` |
 | [编译器](https://www.luogu.com/article/1zm75exp) | BFCompiler |  | C | tiger2005 | 2018 | |
-| [none1bf](https://esolangs.org/wiki/Brainfuck_C%2B%2B_interpreter) [^unclear-names] | An optimizing brainfuck interpreter | Interpreter | C++ | None1 | 2023 | |
+| [none1bf](https://esolangs.org/wiki/Brainfuck_C%2B%2B_interpreter) [^unclear-names] | An optimizing brainfuck interpreter | Interpreter | C++ | None1 | 2023 | `none1bf` |
 | [bf-li](http://lvogel.free.fr/bf.html) | Fast brainfuck interpreter using GNU lightning | JIT Compiler | C | Laurent Vogel | 2011 | |
 | [bf-sed](http://lvogel.free.fr/bf.html) | Joke interpreter | Interpreter | Sed | Laurent Vogel | 2013 | |
 | [rpypkgs](https://github.com/rpypkgs/rpypkgs/blob/main/bf/bf.py) | Interpreter in RPython | Interpreter | Python 2 (RPython) | Andrew Brown & Corbin Simpson | 2024 | |
