@@ -10,4 +10,5 @@ in
   esotope-bfc-3 = pkgs.callPackage ./esotope-bfc/3.nix { };
   awibPackages = import ./awib pkgs;
   reb = pkgs.callPackage ./reb { };
+  tritium = pkgs.callPackage ./tritium { };
 }

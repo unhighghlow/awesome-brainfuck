@@ -66,7 +66,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [bf-li](http://lvogel.free.fr/bf.html) | Fast brainfuck interpreter using GNU lightning | JIT Compiler | C | Laurent Vogel | 2011 | |
 | [bf-sed](http://lvogel.free.fr/bf.html) | Joke interpreter | Interpreter | Sed | Laurent Vogel | 2013 | |
 | [rpypkgs](https://github.com/rpypkgs/rpypkgs/blob/main/bf/bf.py) | Interpreter in RPython | Interpreter | Python 2 (RPython) | Andrew Brown & Corbin Simpson | 2024 | |
-| [P‴ (tritium)](https://github.com/rdebath/Brainfuck/tree/master/tritium) | This is the fastest brainfuck interpreter around | Interpreter, Compiler to C | C | rdebath | 2023 | |
+| [P‴ (tritium)](https://github.com/rdebath/Brainfuck/tree/master/tritium) | This is the fastest brainfuck interpreter around | Interpreter, Compiler to C | C | rdebath | 2023 | `tritium` |
 | [libbf](https://savannah.nongnu.org/projects/libbf) | Free BrainFuck interpreter, optimizer, compiler library | JIT Compiler | C | Even Rouault | 2006 |  |
 | [jitbf](https://github.com/none-None1/jitbf) | Brainfuck JIT interpreter in Python | JIT Compiler | Python | None1 | 2023 | |
 | [OokBF](https://zedlx.com/OokBF/ookbf-interpreter) | Run Brainfu** and Ook Applications, Here and Now! | Interpreter | Javascript | | 2023 | |
