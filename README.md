@@ -113,7 +113,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [bf2c.hs](https://esoteric.sange.fi/brainfuck/impl/compilers/bf2c.hs) | Brainfuck to C compiler in Haskell | Compiler to C | Haskell | Bertram Felgenhauer | 2002 | |
 | [wbf2c](https://github.com/skeeto/bfc) [web](https://web.archive.org/web/20071201152418/https://nullprogram.com/projects/bf/) | Optimizing, Multi-threading Brainfuck to C Converter | Compiler to C | C | Christopher Wellons | 2008 | |
 | [bf-x86](https://github.com/skeeto/bf-x86) | x86_64 brainfuck compiler | Compiler to x86_64-linux | C | Christopher Wellons | 2015 | `bf-x86` |
-| [bfdb](https://djm.cc/dmoews.html) | Optimizing interpreter, debugger and compiler for the BF programming language | Interpreter, Compiler to C | C | David Moews | 2006 | |
+| [bfdb](https://djm.cc/dmoews.html) | Optimizing interpreter, debugger and compiler for the BF programming language | Interpreter, Compiler to C | C | David Moews | 2006 | `bfdb` |
 --------------------------
 
 # Higher level languages
