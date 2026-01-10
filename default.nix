@@ -13,4 +13,5 @@ in
   tritium = pkgs.callPackage ./tritium { };
   brainforked = pkgs.callPackage ./brainforked { };
   none1bf = pkgs.callPackage ./none1bf { };
+  bf-x86 = pkgs.callPackage ./bf-x86 { };
 }
