@@ -16,13 +16,12 @@
       bff4 = pkgs.callPackage ./bff4 {};
       bffsree = pkgs.callPackage ./bffsree {};
       esotope-bfc-3 = pkgs.callPackage ./esotope-bfc/3.nix {};
-      awibPackages = import ./awib pkgs;
       reb = pkgs.callPackage ./reb { };
       tritium = pkgs.callPackage ./tritium { };
       brainforked = pkgs.callPackage ./brainforked { };
       none1bf = pkgs.callPackage ./none1bf { };
       bf-x86 = pkgs.callPackage ./bf-x86 { };
       bfdb = pkgs.callPackage ./bfdb { };
-    });
+    } // import ./awib pkgs);
   };
 }

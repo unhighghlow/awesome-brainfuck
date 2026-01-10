@@ -73,8 +73,7 @@ let awib-pkg = ({
   }
 ); in rec {
   awib = pkgs.callPackage awib-pkg { };
-  awib-c = awib;
-  awib-tcl = awib.override { enableC = false; enableTcl = true; };
-  awib-bash = awib.override { enableC = false; enableBash = true; };
-  awib-full = awib.override { enableC = true; enableTcl = true; enableBash = true; };
+  awibTcl = awib.override { enableC = false; enableTcl = true; };
+  awibBash = awib.override { enableC = false; enableBash = true; };
+  awibFull = awib.override { enableC = true; enableTcl = true; enableBash = true; };
 }
