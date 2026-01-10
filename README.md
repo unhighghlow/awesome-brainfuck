@@ -16,6 +16,7 @@ A curated list of tools relating to the brainfuck esoteric language
   - [Category](https://esolangs.org/wiki/Category:Brainfuck)
   
 - [50,000,000,000 Instructions Per Second : Design and Implementation of a 256-Core BrainFuck Computer](https://people.csail.mit.edu/wjun/papers/sigtbd16.pdf) by Sang-Woo Jun
+- [Comparison of brainfuck compilers](https://code.google.com/archive/p/esotope-bfc/wikis/Comparison.wiki)
 
 # Implementations
 
@@ -101,6 +102,18 @@ A curated list of tools relating to the brainfuck esoteric language
 | [qdb](https://brainfuck.org/qdb.c) | Quick and dirty brainfuck interpreter | Interpreter | C | Daniel B Cristofani | 2020 | |
 | [bcci](https://brainfuck.org/bcci.c) | The unreasonably restrictive, score-computing interpreter used for BFCC | Interpreter | C | Daniel B Cristofani | 2004 | |
 | [Visual Brainfuck for Applications](https://codeberg.org/highghlow/visual-brainfuck) | Brainfuck Interpreter in VBA | Interprer | VBA | highghlow | 2026 | |
+| [dbf2c](http://esoteric.sange.fi/brainfuck/impl/compilers/dbf2c.b) | Very simple BF-to-C compiler | Compiler to C | Brainfuck | Daniel B Cristofani | 2004 | |
+| [BF2C](https://web.archive.org/web/20031207075550/http://www.brainfuck.ca/BF2C.c) [alt](https://esoteric.sange.fi/brainfuck/impl/compilers/BF2C.c) |Really simple non-optimizing compiler | Compiler to C | C | Thomas Cort | 2003 | |
+| [BF2Java](https://web.archive.org/web/20031207084623/http://www.brainfuck.ca/BF2Java.c) [alt](http://esoteric.sange.fi/brainfuck/impl/compilers/BF2Java.c) | Really simple non-optimizing compiler (again) | Compiler to Java | C | Thomas Cort | 2003 | |
+| [BF2X86Asm](https://web.archive.org/web/20031207100929/http://www.brainfuck.ca/BF2X86Asm.java) [alt](http://esoteric.sange.fi/brainfuck/impl/compilers/BF2X86Asm.java) | Slightly optimizing compiler | Compiler to x86 Assembly | Java | Thomas Cort | 2003 | |
+| [BF2MIPSAsm](https://web.archive.org/web/20031207091510/http://www.brainfuck.ca/BF2MIPSAsm.java) [alt](http://esoteric.sange.fi/brainfuck/impl/compilers/BF2MIPSAsm.java) | Slightly optimizing compiler (again (again)) | Compiler to MIPS Assembly | Java | Thomas Cort | 2003 | |
+| [bfcc](http://esoteric.sange.fi/brainfuck/impl/compilers/bfcc.c) | MS-DOS compiler | Compiler to x86-msdos | C | Ben Olmstead | 1997 | |
+| [dbc](https://brainfuck.org/dbc.c) | A compiler for SUN machines | Compiler to sparc-linux | C | Daniel B Cristofani | |
+| [Hamster, the BF Compiler](https://www.hamsterfestdestiny.org/hamster/) | The world's most diverse, highly-optimizing, well-commented, and modularly designed BF compiler ever implemented | Compiler to C, Java, MIPS Assembly, x86 Assembly, LLVM IR | Scheme | Jon Simons | 2008 | |
+| [bf2c.hs](https://esoteric.sange.fi/brainfuck/impl/compilers/bf2c.hs) | Brainfuck to C compiler in Haskell | Compiler to C | Haskell | Bertram Felgenhauer | 2002 | |
+| [wbf2c](https://github.com/skeeto/bfc) [web](https://web.archive.org/web/20071201152418/https://nullprogram.com/projects/bf/) | Optimizing, Multi-threading Brainfuck to C Converter | Compiler to C | C | Christopher Wellons | 2008 | |
+| [bf-x86](https://github.com/skeeto/bf-x86) | x86_64 brainfuck compiler | Compiler to x86_64-linux | C | Christopher Wellons | 2015 | |
+| [bfdb](https://djm.cc/dmoews.html) | Optimizing interpreter, debugger and compiler for the BF programming language | Interpreter, Compiler to C | C | David Moews | 2006 | |
 --------------------------
 
 # Higher level languages
