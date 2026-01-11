@@ -1,6 +1,6 @@
 { lib, stdenv, fetchurl, gmp }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "bfdb";
   version = "0.03";
 

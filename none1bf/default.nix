@@ -1,6 +1,6 @@
 { lib, stdenv, clang }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   name = "none1bf";
 
   src = ./none1bf.cpp;

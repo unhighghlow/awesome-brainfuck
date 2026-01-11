@@ -1,6 +1,6 @@
 { lib, stdenv, fetchurl }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "qdb";
   version = "1.2";
 

@@ -1,6 +1,6 @@
 { lib, stdenv, fetchFromGitHub, autoreconfHook }:
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "wbf2c";
   version = "unstable-2017-12-10";
 
