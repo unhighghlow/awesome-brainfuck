@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = { nixpkgs }: {
+  outputs = { nixpkgs, ... }: {
     packages = nixpkgs.lib.genAttrs [
       "x86_64-linux"
       "aarch64-linux"
