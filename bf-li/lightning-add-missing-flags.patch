@@ -1,0 +1,12 @@
+diff --git a/configure b/configure
+index 154254f..2149415 100755
+--- a/configure
++++ b/configure
+@@ -587,6 +587,7 @@ do
+   -x-libraries=* | --x-libraries=* | --x-librarie=* | --x-librari=* \
+   | --x-librar=* | --x-libra=* | --x-libr=* | --x-lib=* | --x-li=* | --x-l=*)
+     x_libraries=$ac_optarg ;;
++  --docdir=* | --localedir=*) true;;
+ 
+   -*) { echo "$as_me: error: unrecognized option: $ac_option
+ Try \`$0 --help' for more information." >&2

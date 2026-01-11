@@ -16,4 +16,5 @@ in
   bfdb = pkgs.callPackage ./bfdb { };
   wbf2c = pkgs.callPackage ./bfdb { };
   qdb = pkgs.callPackage ./qdb { };
+  bf-li = pkgs.callPackage ./bf-li { };
 } // import ./awib pkgs

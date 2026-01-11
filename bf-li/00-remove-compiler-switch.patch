@@ -1,0 +1,23 @@
+diff --git a/Makefile b/Makefile
+index 4de6cb4..d08f667 100644
+--- a/Makefile
++++ b/Makefile
+@@ -13,18 +13,6 @@ EXE =
+ CORE = core
+ endif
+ 
+-#
+-# crude compiler switch (choosing between tcc and gcc)
+-#
+-
+-ifeq (1,1)
+-CC = tcc
+-CFLAGS = -I`cygpath -w /usr/local/include` -Wall
+-else
+-CC = gcc
+-CFLAGS = -I/usr/local/include -Wall -O2
+-endif
+-
+ all: bfli
+ 
+ bf2: bfli.c
