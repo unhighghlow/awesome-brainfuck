@@ -23,6 +23,7 @@
       bf-x86 = pkgs.callPackage ./bf-x86 { };
       bfdb = pkgs.callPackage ./bfdb { };
       wbf2c = pkgs.callPackage ./wbf2c { };
+      qdb = pkgs.callPackage ./qdb { };
     } // import ./awib pkgs);
   };
 }
