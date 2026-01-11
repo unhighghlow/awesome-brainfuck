@@ -102,7 +102,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) | Brainfuck interpreter with advanced features | Interpreter | C | highghlow | 2025 | |
 | [dbfi](https://brainfuck.org/dbfi.b) | Shortest self-interpreter | Interpreter | Brainfuck | Daniel B Cristofani | 2020 | |
 | [sbi](https://brainfuck.org/sbi.c) | A clean and simple, but slow brainfuck interpreter | Interpreter | C | Daniel B Cristofani | 2006 | |
-| [qdb](https://brainfuck.org/qdb.c) | Quick and dirty brainfuck interpreter | Interpreter | C | Daniel B Cristofani | 2020 | |
+| [qdb](https://brainfuck.org/qdb.c) | Quick and dirty brainfuck interpreter | Interpreter | C | Daniel B Cristofani | 2020 | `qdb` |
 | [bcci](https://brainfuck.org/bcci.c) | The unreasonably restrictive, score-computing interpreter used for BFCC | Interpreter | C | Daniel B Cristofani | 2004 | |
 | [Visual Brainfuck for Applications](https://codeberg.org/highghlow/visual-brainfuck) | Brainfuck Interpreter in VBA | Interpreter | VBA | highghlow | 2026 | |
 | [dbf2c](http://esoteric.sange.fi/brainfuck/impl/compilers/dbf2c.b) | Very simple BF-to-C compiler | Compiler to C | Brainfuck | Daniel B Cristofani | 2004 | |
