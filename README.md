@@ -34,6 +34,8 @@ A curated list of tools relating to the brainfuck esoteric language
 
 [View this table with sorting](https://markdown-table.nullvoxpopuli.com/?file=https://raw.githubusercontent.com/unhighghlow/awesome-brainfuck/refs/heads/main/README.md)
 
+[View this table with sorting (new, beta)](https://highghlow.codeberg.page/awesome-brainfuck)
+
 <details>
 <summary><b>How to run these interpreters</b></summary>
 
