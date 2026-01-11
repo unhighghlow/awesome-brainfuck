@@ -14,4 +14,5 @@ in
   none1bf = pkgs.callPackage ./none1bf { };
   bf-x86 = pkgs.callPackage ./bf-x86 { };
   bfdb = pkgs.callPackage ./bfdb { };
+  wbf2c = pkgs.callPackage ./bfdb { };
 } // import ./awib pkgs
