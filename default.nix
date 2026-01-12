@@ -18,4 +18,5 @@ in
   qdb = pkgs.callPackage ./qdb { };
   bf-li = pkgs.callPackage ./bf-li { };
   bcci = pkgs.callPackage ./bcci { };
+  bfc-wilfred = pkgs.callPackage ./bfc-wilfred { };
 } // import ./awib pkgs
