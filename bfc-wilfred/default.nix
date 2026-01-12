@@ -2,10 +2,11 @@
   lib,
   fetchFromGitHub,
   rustPlatform,
-  llvmPackages_18,
+  llvmPackages_14,
   zlib,
-  xml2,
-  libtinfo
+  libxml2,
+  libtinfo,
+  pkg-config
 }:
 
 rustPlatform.buildRustPackage (finalAttrs: rec {
@@ -13,15 +14,17 @@ rustPlatform.buildRustPackage (finalAttrs: rec {
   version = "unstable-2024-04-17";
 
   nativeBuildInputs = [
-    llvmPackages_18.libllvm
-    zlib
-    xml2
-    libtinfo
+    llvmPackages_14.libllvm
+    pkg-config
   ];
-  LD_LIBRARY_PATH = lib.makeLibraryPath nativeBuildInputs;
+  buildInputs = [
+    zlib.dev
+    libxml2.dev
+    libtinfo.dev
+  ];
 
   patches = [
-    ./00-fix-pointers.patch
+    #./00-fix-pointers.patch
   ];
 
   src = fetchFromGitHub {

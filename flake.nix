@@ -3,14 +3,18 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs-llvm14.url = "github:nixos/nixpkgs/372d9eeeafa5b15913201e2b92e8e539ac7c64d1";
   };
 
-  outputs = { nixpkgs, ... }: {
+  outputs = { nixpkgs, nixpkgs-llvm14, ... }: {
     packages = nixpkgs.lib.genAttrs [
       "x86_64-linux"
       "aarch64-linux"
       "i686-linux"
-    ] (system: let pkgs = import nixpkgs {inherit system;}; in {
+    ] (system: let
+      pkgs = import nixpkgs {inherit system;};
+      pkgs-llvm14 = import nixpkgs-llvm14 {inherit system;};
+    in {
       original = pkgs.callPackage ./original {};
       bff = pkgs.callPackage ./bff {};
       bff4 = pkgs.callPackage ./bff4 {};
@@ -26,7 +30,7 @@
       qdb = pkgs.callPackage ./qdb { };
       bf-li = pkgs.callPackage ./bf-li { };
       bcci = pkgs.callPackage ./bcci { };
-      bfc-wilfred = pkgs.callPackage ./bfc-wilfred { };
+      bfc-wilfred = pkgs.callPackage ./bfc-wilfred { llvmPackages_14 = pkgs-llvm14.llvmPackages_14; };
     } // import ./awib pkgs);
   };
 }
