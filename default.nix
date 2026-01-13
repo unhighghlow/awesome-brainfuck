@@ -18,5 +18,5 @@ in
   qdb = pkgs.callPackage ./qdb { };
   bf-li = pkgs.callPackage ./bf-li { };
   bcci = pkgs.callPackage ./bcci { };
-  bfc-wilfred = pkgs.callPackage ./bfc-wilfred { };
+  bfc-wilfred = throw "You have to use the flake to evaluate bfc-wilfred";
 } // import ./awib pkgs
