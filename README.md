@@ -99,7 +99,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [Haskell BF](https://gitlab.com/Hakerh400/haskell-projects/-/blob/master/bf/Main.hs) [^unclear-names] | Brainfuck interpreter in Haskell | Interpreter | Haskell | Hackerh400 | 2023 | |
 | [Scratch BF](https://scratch.mit.edu/projects/1196711936) [^unclear-names] | Brainfuck interpreter in Scratch | Interpreter | Scratch | HGDNski | 2025 | |
 | [Brainfuck-in-Batch](https://github.com/yyny/Brainfuck-In-Batch) | Its brainfuck in batch! | Interpreter | Batch | Jonne Ransijn | 2016 | |
-| [brainfuck.bat](https://gist.github.com/tnhung2011/f3ab20154b21c36fe878a47c13d68dab) | A batchfile Brainfuck interpreter | Interpreter | Batch | tnhung2011 | 2025 | |
+| [brainfuck.bat](https://web.archive.org/web/20251201004242/https://gist.github.com/tnhung2011/f3ab20154b21c36fe878a47c13d68dab) | A batchfile Brainfuck interpreter | Interpreter | Batch | tnhung2011 | 2025 | |
 | [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) | Brainfuck interpreter with advanced features | Interpreter | C | highghlow | 2025 | |
 | [dbfi](https://brainfuck.org/dbfi.b) | Shortest self-interpreter | Interpreter | Brainfuck | Daniel B Cristofani | 2020 | |
 | [sbi](https://brainfuck.org/sbi.c) | A clean and simple, but slow brainfuck interpreter | Interpreter | C | Daniel B Cristofani | 2006 | |
