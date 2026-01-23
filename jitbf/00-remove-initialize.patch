@@ -1,0 +1,19 @@
+diff --git a/jitbf.py b/jitbf.py
+index 526c5a5..a04758c 100644
+--- a/jitbf.py
++++ b/jitbf.py
+@@ -7,7 +7,6 @@ except:
+     raise ImportError('The package requires llvmlite, please install it via "pip install llvmlite"')
+ from ctypes import *
+ from uuid import uuid4
+-llvm.initialize()
+ llvm.initialize_native_target()
+ llvm.initialize_native_asmprinter()
+ engines=[]
+@@ -260,4 +259,4 @@ def _test():
+     jit()
+ __all__=['bf2jit']
+ if __name__=='__main__':
+-    _test()
+\ No newline at end of file
++    _test()

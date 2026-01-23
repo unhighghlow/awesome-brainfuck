@@ -33,6 +33,7 @@
       bfc-wilfred = pkgs.callPackage ./bfc-wilfred { llvmPackages_14 = pkgs-llvm14.llvmPackages_14; };
       bfc-muxutruk = pkgs.callPackage ./bfc-muxutruk { };
       bfcc = pkgs.callPackage ./bfcc { };
+      jitbf = pkgs.callPackage ./jitbf { };
     } // import ./awib pkgs);
   };
 }

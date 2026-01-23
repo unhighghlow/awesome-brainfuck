@@ -85,7 +85,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [rpypkgs](https://github.com/rpypkgs/rpypkgs/blob/main/bf/bf.py) | Interpreter in RPython | Interpreter | Python 2 (RPython) | Andrew Brown & Corbin Simpson | 2024 | |
 | [P‴ (tritium)](https://github.com/rdebath/Brainfuck/tree/master/tritium) | This is the fastest brainfuck interpreter around | Interpreter, Compiler to C and x86 Assembly, JIT Compiler | C | rdebath | 2023 | `tritium` |
 | [libbf](https://savannah.nongnu.org/projects/libbf) | Free BrainFuck interpreter, optimizer, compiler library | JIT Compiler | C | Even Rouault | 2006 |  |
-| [jitbf](https://github.com/none-None1/jitbf) | Brainfuck JIT interpreter in Python | JIT Compiler | Python | None1 | 2023 | |
+| [jitbf](https://github.com/none-None1/jitbf) | Brainfuck JIT interpreter in Python | JIT Compiler | Python | None1 | 2023 | `jitbf` |
 | [OokBF](https://zedlx.com/OokBF/ookbf-interpreter) | Run Brainfu** and Ook Applications, Here and Now! | Interpreter | Javascript | | 2023 | |
 | [bf2fj](https://github.com/tomhea/bf2fj) | A Brainfuck to FlipJump Compiler | Compiler to FlipJump | Python | Tom Hea | 2023 | |
 | [BrainFExec](https://github.com/none-None1/BrainFExec) | A BrainFuck compiler to Windows executable in C# | Compiler to x86_64-windows | C# | None1 | 2023 | |
