@@ -20,4 +20,5 @@ in
   bcci = pkgs.callPackage ./bcci { };
   bfc-wilfred = throw "You have to use the flake to evaluate bfc-wilfred";
   bfc-muxutruk = pkgs.callPackage ./bfc-muxutruk { };
+  bfcc = pkgs.callPackage ./bfcc { };
 } // import ./awib pkgs

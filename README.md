@@ -111,7 +111,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [BF2Java](https://web.archive.org/web/20031207084623/http://www.brainfuck.ca/BF2Java.c) [alt](http://esoteric.sange.fi/brainfuck/impl/compilers/BF2Java.c) | Really simple non-optimizing compiler (again) | Compiler to Java | C | Thomas Cort | 2003 | |
 | [BF2X86Asm](https://web.archive.org/web/20031207100929/http://www.brainfuck.ca/BF2X86Asm.java) [alt](http://esoteric.sange.fi/brainfuck/impl/compilers/BF2X86Asm.java) | Slightly optimizing compiler | Compiler to x86 Assembly | Java | Thomas Cort | 2003 | |
 | [BF2MIPSAsm](https://web.archive.org/web/20031207091510/http://www.brainfuck.ca/BF2MIPSAsm.java) [alt](http://esoteric.sange.fi/brainfuck/impl/compilers/BF2MIPSAsm.java) | Slightly optimizing compiler (again (again)) | Compiler to MIPS Assembly | Java | Thomas Cort | 2003 | |
-| [bfcc](http://esoteric.sange.fi/brainfuck/impl/compilers/bfcc.c) | MS-DOS compiler | Compiler to x86-msdos | C | Ben Olmstead | 1997 | |
+| [bfcc](http://esoteric.sange.fi/brainfuck/impl/compilers/bfcc.c) | MS-DOS compiler | Compiler to x86-msdos | C | Ben Olmstead | 1997 | `bfcc` |
 | [dbc](https://brainfuck.org/dbc.c) | A compiler for SUN machines | Compiler to sparc-linux | C | Daniel B Cristofani | 2004 | |
 | [Hamster, the BF Compiler](https://www.hamsterfestdestiny.org/hamster/) | The world's most diverse, highly-optimizing, well-commented, and modularly designed BF compiler ever implemented | Compiler to C, Java, MIPS Assembly, x86 Assembly, LLVM IR | Scheme | Jon Simons | 2008 | |
 | [bf2c.hs](https://esoteric.sange.fi/brainfuck/impl/compilers/bf2c.hs) | Brainfuck to C compiler in Haskell | Compiler to C | Haskell | Bertram Felgenhauer | 2002 | |
