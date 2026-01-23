@@ -31,6 +31,7 @@
       bf-li = pkgs.callPackage ./bf-li { };
       bcci = pkgs.callPackage ./bcci { };
       bfc-wilfred = pkgs.callPackage ./bfc-wilfred { llvmPackages_14 = pkgs-llvm14.llvmPackages_14; };
+      bfc-muxutruk = pkgs.callPackage ./bfc-muxutruk { };
     } // import ./awib pkgs);
   };
 }
