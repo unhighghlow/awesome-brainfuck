@@ -93,7 +93,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [bfc-wilfred](https://github.com/Wilfred/bfc) [^unclear-names] | An industrial-grade brainfuck compiler | Compiler to LLVM IR | Rust | Wilfred Hughes | 2023 | |
 | [bfc-muxutruk](https://github.com/Muxutruk2/bfc) [^unclear-names] | Brainfuck compiler written in rust | JIT Compiler | Rust | Muxutruk | 2025 | `bfc-muxutruk` |
 | [brainfuck.nix](https://github.com/jim3692/brainfuck.nix) | Brainfuck interpreter, implemented in pure Nix | Interpreter | Nix | jim3692 | 2024 | |
-| [bf.sed](https://github.com/rdebath/Brainfuck/blob/master/extras/bf.sed) | A BF interpreter in SED | Interpreter | Sed | rdebath | 2015 | |
+| [bf.sed](https://github.com/rdebath/Brainfuck/blob/master/extras/bf.sed) | A BF interpreter in SED | Interpreter | Sed | rdebath | 2015 | `bf-sed` |
 | [Ha bf inter](https://www.iwriteiam.nl/Ha_bf_inter.html) [^unclear-names] | BF interpreter written in BF | Interpreter | Brainfuck | Frans Faase | 2007 | |
 | [bfck](https://github.com/gus-caribe/bfck) | A CLI interpreter for brainf**ck esolang written in Dart | Interpreter | Dart | Gustavo Cardoso Ribeiro | 2023 | |
 | [Haskell BF](https://gitlab.com/Hakerh400/haskell-projects/-/blob/master/bf/Main.hs) [^unclear-names] | Brainfuck interpreter in Haskell | Interpreter | Haskell | Hackerh400 | 2023 | |

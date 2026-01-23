@@ -22,4 +22,5 @@ in
   bfc-muxutruk = pkgs.callPackage ./bfc-muxutruk { };
   bfcc = pkgs.callPackage ./bfcc { };
   jitbf = pkgs.callPackage ./jitbf { };
+  bf-sed = pkgs.callPackage ./bf-sed { };
 } // import ./awib pkgs
