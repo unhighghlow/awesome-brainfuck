@@ -23,4 +23,5 @@ in
   bfcc = pkgs.callPackage ./bfcc { };
   jitbf = pkgs.callPackage ./jitbf { };
   bf-sed = pkgs.callPackage ./bf-sed { };
+  bcci-ng = pkgs.callPackage ./bcci-ng { };
 } // import ./awib pkgs
