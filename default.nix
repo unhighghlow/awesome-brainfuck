@@ -17,6 +17,7 @@ in
   wbf2c = pkgs.callPackage ./bfdb { };
   qdb = pkgs.callPackage ./qdb { };
   bf-li = pkgs.callPackage ./bf-li { };
+  bf-li-nojit = pkgs.callPackage ./bf-li/nojit.nix { };
   bcci = pkgs.callPackage ./bcci { };
   bfc-wilfred = throw "You have to use the flake to evaluate bfc-wilfred";
   bfc-muxutruk = pkgs.callPackage ./bfc-muxutruk { };

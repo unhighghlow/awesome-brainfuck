@@ -1,0 +1,23 @@
+diff --git a/bfli.c b/bfli.c
+index c8131df..78b8e4e 100644
+--- a/bfli.c
++++ b/bfli.c
+@@ -1983,6 +1983,10 @@ int main(int argc, char **argv)
+     else usage(1);
+     argc--; argv++;
+   }
++  if (opt_dump + opt_c + opt_slow == 0) {
++    printf("JIT compilation not available.\nUse the -c flag to emit C code.\n");
++    exit(1);
++  }
+   f = (argc <= 1) ? stdin : fopen(argv[1], "r");
+   if (f == NULL) { 
+     fprintf(stderr, "cannot open %s\n", argv[1]);
+@@ -2001,7 +2005,6 @@ int main(int argc, char **argv)
+   }
+   if (opt_c) to_c(stdout);
+   if (opt_slow) run();
+-  if (opt_dump + opt_c + opt_slow == 0) run_lightning();
+ 
+   exit(0);
+ }
