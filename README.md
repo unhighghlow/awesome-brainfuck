@@ -24,12 +24,12 @@ A curated list of tools relating to the brainfuck esoteric language
 
 - [Original](https://aminet.net/package/dev/lang/brainfuck-2) -- The original interpreter
 - [qdb](https://brainfuck.org/qdb.c) -- A really small and reasonably fast interpreter
+- [bf-li](http://lvogel.free.fr/bf.html) -- An ancient JIT compiler and C transpiler that's somehow insanely fast (only 32-bit though)
 - [esotope-bfc](https://github.com/lifthrasiir/esotope-bfc) -- A really good optimizing compiler to C
 - [awib](https://github.com/matslina/awib) -- Cursed polyglot experiment that compiles to everything
 - [dbfi](https://brainfuck.org/dbfi.b) -- A famous and tiny brainfuck meta-interpreter
 - [P‴ (tritium)](https://github.com/rdebath/Brainfuck/tree/master/tritium) -- One of the fastest, and maybe the fastest interpreter (that also features a compiler to x86 assembly and C, as well as JIT)
 - [industrial-bf](https://github.com/sit-itmo/DoomBF/tree/master/bf/industrial-bf) -- My own interpreter. It's not terribly fast, but does come with a nice debugger.
-- [bf-li](http://lvogel.free.fr/bf.html) -- An ancient JIT compiler that's somehow insanely fast (only 32-bit though)
 
 ## Full table
 
@@ -80,7 +80,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [BrainForked](https://github.com/JohnCGriffin/BrainForked/) | Fast BF interpreter in C++11 | Interpreter | C++ | John Griffin | 2020 | `brainforked` |
 | [编译器](https://www.luogu.com/article/1zm75exp) | BFCompiler |  | C | tiger2005 | 2018 | |
 | [none1bf](https://esolangs.org/wiki/Brainfuck_C%2B%2B_interpreter) [^unclear-names] | An optimizing brainfuck interpreter | Interpreter | C++ | None1 | 2023 | `none1bf` |
-| [bf-li](http://lvogel.free.fr/bf.html) | Fast brainfuck interpreter using GNU lightning | JIT Compiler | C | Laurent Vogel | 2011 | `packages.i686-linux.bf-li` |
+| [bf-li](http://lvogel.free.fr/bf.html) | Fast brainfuck interpreter using GNU lightning | JIT Compiler, Compiler to C | C | Laurent Vogel | 2011 | `packages.i686-linux.bf-li` |
 | [bf-sed](http://lvogel.free.fr/bf.html) | Joke interpreter | Interpreter | Sed | Laurent Vogel | 2013 | |
 | [rpypkgs](https://github.com/rpypkgs/rpypkgs/blob/main/bf/bf.py) | Interpreter in RPython | Interpreter | Python 2 (RPython) | Andrew Brown & Corbin Simpson | 2024 | |
 | [P‴ (tritium)](https://github.com/rdebath/Brainfuck/tree/master/tritium) | This is the fastest brainfuck interpreter around | Interpreter, Compiler to C and x86 Assembly, JIT Compiler | C | rdebath | 2023 | `tritium` |
@@ -124,6 +124,7 @@ A curated list of tools relating to the brainfuck esoteric language
 
 # Higher level languages
 
+- <sub>:star:</sub> [COBFOL](https://codeberg.org/IvanSakaev/COBFOL) -- by highghlow and IvanSakaev (2026)
 - <sub>:star:</sub> [BFFuck](https://esolangs.org/wiki/BFFuck) -- by None1 (2023)
 - <sub>:star:</sub> [VBF](https://vilgotanl.github.io/Bf-Transpilers/old_broken_or_scrapped/vbf/vbf_transpiler_and_interpreter/index.html) -- by VigotanL (2021)
 - [brain](https://github.com/sunjay/brain) -- by Sunjay Varma (2017)
