@@ -119,6 +119,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [bf-x86](https://github.com/skeeto/bf-x86) | x86_64 brainfuck compiler | Compiler to x86_64-linux | C | Christopher Wellons | 2015 | `bf-x86` |
 | [bfdb](https://djm.cc/dmoews.html) | Optimizing interpreter, debugger and compiler for the BF programming language | Interpreter, Compiler to C | C | David Moews | 2006 | `bfdb` |
 | [bcci-ng](https://codeberg.org/highghlow/bcci-ng) | The unreasonably restrictive, score-computing interpreter used for BFCC (revised) | Interpreter | C | Daniel B Cristofani & highghlow | 2026 | `bcci-ng` |
+| [bf16](https://github.com/p2r3/bf16) | The first ever visual Brainfuck runtime built for running interactive games | Interpreter | C | Portal Runner | 2025 | `bf16` |
 --------------------------
 <!-- END TABLE !-->
 
