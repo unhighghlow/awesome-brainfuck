@@ -1,0 +1,52 @@
+{
+"esotope-bfc-3": {
+  "variants": {
+    "compiler": ["gcc"]
+  },
+  "build": [
+    "esotope-bfc $src > $scratch/prog.c",
+    "$compiler -O3 $scratch/prog.c -o $scratch/prog"
+  ],
+  "run": [
+    "$scratch/prog"
+  ]
+},
+
+"bf-li": {
+  "run": [
+    "bf-li $src"
+  ]
+},
+
+"bf-li-c": {
+  "variants": {
+    "compiler": ["gcc"]
+  },
+  "build": [
+    "bf-li -c $src > $scratch/prog.c",
+    "$compiler -O3 $scratch/prog.c -o $scratch/prog"
+  ],
+  "run": [
+    "$scratch/prog"
+  ]
+},
+
+"tritium": {
+  "run": [
+    "tritium $src"
+  ]
+},
+
+"tritium-c": {
+  "variants": {
+    "compiler": ["gcc"]
+  },
+  "build": [
+    "tritium -C $src > $scratch/prog.c",
+    "$compiler -O3 $scratch/prog.c -o $scratch/prog"
+  ],
+  "run": [
+    "$scratch/prog"
+  ]
+}
+}

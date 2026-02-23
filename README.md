@@ -146,6 +146,10 @@ A curated list of tools relating to the brainfuck esoteric language
 - [brainfuck.org](https://brainfuck.org)
   - [life.b](https://brainfuck.org/life.b) -- Conway's Game of Life
   - [sierpinski.b](https://brainfuck.org/sierpinski.b) -- Display Sierpinski triangle
+- [bf16 examples](https://github.com/p2r3/bf16/tree/main/examples)
+  - [badapple.b](https://github.com/p2r3/bf16/blob/main/examples/badapple.b)
+  - [snake.b](https://github.com/p2r3/bf16/blob/main/examples/snake.b)
+  - [loss](https://github.com/p2r3/bf16/blob/main/examples/loss.b)
 - [mandelbrot.b](https://github.com/ErikDubbelboer/brainfuck-jit/blob/master/mandelbrot.bf) -- A mandelbrot set fractal viewer
 - [Lost Kingdom](https://jonripley.com/i-fiction/games/LostKingdomBF) -- World's first Brainfuck text adventure
 
