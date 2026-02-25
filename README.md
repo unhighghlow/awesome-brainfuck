@@ -89,7 +89,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [OokBF](https://zedlx.com/OokBF/ookbf-interpreter) | Run Brainfu** and Ook Applications, Here and Now! | Interpreter | Javascript | | 2023 | |
 | [bf2fj](https://github.com/tomhea/bf2fj) | A Brainfuck to FlipJump Compiler | Compiler to FlipJump | Python | Tom Hea | 2023 | |
 | [BrainFExec](https://github.com/none-None1/BrainFExec) | A BrainFuck compiler to Windows executable in C# | Compiler to x86_64-windows | C# | None1 | 2023 | |
-| [Sade](https://github.com/aartaka/sade) | Infinitely Optimizable Brainfuck-to-Lisp Compiler | Compiler to LISP | Common Lisp | Artyom Bologov | 2023 | |
+| [Sade](https://github.com/aartaka/sade) | Infinitely Optimizable Brainfuck-to-Lisp Compiler | Compiler to LISP | Common Lisp | Artyom Bologov | 2023 | `sade` |
 | [bfc-wilfred](https://github.com/Wilfred/bfc) [^unclear-names] | An industrial-grade brainfuck compiler | Compiler to LLVM IR | Rust | Wilfred Hughes | 2023 | |
 | [bfc-muxutruk](https://github.com/Muxutruk2/bfc) [^unclear-names] | Brainfuck compiler written in rust | JIT Compiler | Rust | Muxutruk | 2025 | `bfc-muxutruk` |
 | [brainfuck.nix](https://github.com/jim3692/brainfuck.nix) | Brainfuck interpreter, implemented in pure Nix | Interpreter | Nix | jim3692 | 2024 | |

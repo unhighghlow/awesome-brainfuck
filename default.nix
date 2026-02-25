@@ -26,4 +26,5 @@ in
   bf-sed = pkgs.callPackage ./bf-sed { };
   bcci-ng = pkgs.callPackage ./bcci-ng { };
   bf16 = pkgs.callPackage ./bf16 { };
+  sade = pkgs.callPackage ./sade { };
 } // import ./awib pkgs
