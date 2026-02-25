@@ -3,6 +3,7 @@ import itertools
 import tempfile
 import json 
 import os
+import sys
 import time
 
 os.chdir(os.path.dirname(__file__))
@@ -23,12 +24,14 @@ with open("config.json", "r") as f:
 
 def run_cmds(cmds, env):
     for cmd in cmds:
-        proc = subprocess.Popen(cmd, env=env, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        proc = subprocess.Popen(cmd, env=env, shell=True, stdout=sys.stdout, stderr=subprocess.PIPE)
         if proc.wait():
             out, err = proc.communicate(b'')
             print("\nERROR:")
-            print(out.decode("utf-8"))
-            print(err.decode("utf-8"))
+            if out is not None:
+                print(out.decode("utf-8"))
+            if err is not None:
+                print(err.decode("utf-8"))
             return 1
         print(".", end="", flush=True)
 

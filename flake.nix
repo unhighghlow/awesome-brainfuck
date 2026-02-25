@@ -6,7 +6,7 @@
     nixpkgs-llvm14.url = "github:nixos/nixpkgs/372d9eeeafa5b15913201e2b92e8e539ac7c64d1";
   };
 
-  outputs = { nixpkgs, nixpkgs-llvm14, ... }: {
+  outputs = { self, nixpkgs, nixpkgs-llvm14, ... }: {
     packages = nixpkgs.lib.genAttrs [
       "x86_64-linux"
       "aarch64-linux"
@@ -40,5 +40,30 @@
       bf16 = pkgs.callPackage ./bf16 { };
       sade = pkgs.callPackage ./sade { };
     } // import ./awib pkgs);
+    devShells = nixpkgs.lib.genAttrs [
+      "x86_64-linux"
+      "aarch64-linux"
+      "i686-linux"
+    ] (system: let
+      pkgs = import nixpkgs {inherit system;};
+    in {
+      default = pkgs.mkShell {
+        nativeBuildInputs = with pkgs; with self.packages."${system}"; [
+          python3
+          gcc
+          clang
+          tinycc
+
+          esotope-bfc-3
+          bf-li-nojit
+          tritium
+        ] ++ (if system == "i686-linux" then
+          [ bf-li ]
+        else if system == "i686-linux" then
+          [ packages.i686-linux.bf-li ]
+        else
+          []);
+      };
+    });
   };
 }

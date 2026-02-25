@@ -1,7 +1,7 @@
 {
 "esotope-bfc-3": {
   "variants": {
-    "compiler": ["gcc"]
+    "compiler": ["gcc", "clang", "tcc"]
   },
   "build": [
     "esotope-bfc $src > $scratch/prog.c",
@@ -20,7 +20,7 @@
 
 "bf-li-c": {
   "variants": {
-    "compiler": ["gcc"]
+    "compiler": ["gcc", "clang", "tcc"]
   },
   "build": [
     "bf-li -c $src > $scratch/prog.c",
@@ -39,7 +39,7 @@
 
 "tritium-c": {
   "variants": {
-    "compiler": ["gcc"]
+    "compiler": ["gcc", "clang", "tcc"]
   },
   "build": [
     "tritium -C $src > $scratch/prog.c",
