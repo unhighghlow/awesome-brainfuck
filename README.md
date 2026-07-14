@@ -126,7 +126,7 @@ A curated list of tools relating to the brainfuck esoteric language
 
 # Higher level languages
 
-- <sub>:star:</sub> [COBFOL](https://codeberg.org/IvanSakaev/COBFOL) -- by highghlow and IvanSakaev (2026)
+- <sub>:star:</sub> [RISC-BF](https://codeberg.org/IvanSakaev/RISC-BF) -- by highghlow and IvanSakaev (2026)
 - <sub>:star:</sub> [BFFuck](https://esolangs.org/wiki/BFFuck) -- by None1 (2023)
 - <sub>:star:</sub> [VBF](https://vilgotanl.github.io/Bf-Transpilers/old_broken_or_scrapped/vbf/vbf_transpiler_and_interpreter/index.html) -- by VigotanL (2021)
 - [brain](https://github.com/sunjay/brain) -- by Sunjay Varma (2017)
@@ -137,6 +137,7 @@ A curated list of tools relating to the brainfuck esoteric language
 - [p2r3BFC](https://github.com/p2r3/bfc)[^unclear-names] -- by Portal Runner (2024)
 
 # Software
+- [DOOM (1993)](https://github.com/sit-itmo/DoomBF) -- Yes, really
 - [Brainfuck Enterprise Solutions](https://github.com/bf-enterprise-solutions)
   - [ed.bf](https://github.com/bf-enterprise-solutions/ed.bf) -- Infinitely configurable integrated IDE and text editor 
   - [os.bf](https://github.com/bf-enterprise-solutions/os.bf) -- A next-generation high-performance operating system focused on enterprise-level resilience
