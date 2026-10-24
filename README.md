@@ -72,7 +72,7 @@ A curated list of tools relating to the brainfuck esoteric language
 | [Original](https://aminet.net/package/dev/lang/brainfuck-2) | Who can program anything useful with it? :) | Interpreter | C | Urban Müller | 1993 | `original` |
 | [bff](https://github.com/apankrat/bff) | Moderately-optimizing brainfuck interpreter | Interpreter | C | Alex Pankratov | 2011 | `bff` |
 | [bff4](https://web.archive.org/web/20230719142919/http://mazonka.com/brainf) | Fast Brainfuck interpreter | Interpreter | C | Oleg Mazonka | 2011 | `bff4` |
-| [bffsree](http://sree.kotay.com/2013/02/implementing-brainfuck.html) [source](https://github.com/sreekotay/bffsree) | Fastest in class | Interpreter | C | sree kotay | 2013 | `packages.i686-linux.bffsree` |
+| [bffsree](http://sree.kotay.com/2013/02/implementing-brainfuck.html) [source](https://github.com/sreekotay/bffsree) | Fastest in class | Interpreter | C | sree kotay | 2013 | `bffsree` |
 | [esotope-bfc](https://github.com/lifthrasiir/esotope-bfc) | The world's most optimizing Brainfuck-to-something compiler | Compiler to C | Python 2 | Kang Seonghoon | 2009 |  |
 | [awib](https://github.com/matslina/awib) | a brainfuck compiler written in brainfuck | Compiler to i686-linux, C, Ruby, Go, Tcl, Java and Rust | Brainfuck | Mats Linander  | 2015 | `awibFull` |
 | [smolbf](https://gist.github.com/lifthrasiir/596667) [^unclear-names] | The world's smallest Brainfuck interpreter | Interpreter | C | Kang Seonghoon | 2010 |  |

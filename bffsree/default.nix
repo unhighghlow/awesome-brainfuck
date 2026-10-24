@@ -1,39 +1,27 @@
-{ lib, stdenv, fetchurl, patchelf }:
+{ lib, stdenv, fetchFromGitHub }:
 
 stdenv.mkDerivation {
   name = "bffrsee";
 
-  src = fetchurl {
-    urls = [
-      "https://www.kotay.com/sree/bf/bffsree"
-      "https://archive.org/download/bffsree/bffsree"
-    ];
-    hash = "sha256-i8BQU7bZwvLoZYCFdvyvcxvCaJqmkaKqdOAC1lihXEY=";
+  src = fetchFromGitHub {
+    owner = "sreekotay";
+    repo = "bffsree";
+    rev = "38f0eef78978193da9fa985965379e8dbf4a2d9b";
+    hash = "sha256-OdPS7puvZVFA1NC7cSiS9vSNixXFzZLfQvZDWFzto5U=";
   };
 
-  nativeBuildInputs = [ patchelf ];
-
-  unpackPhase = ''
-    cp $src bffsree
-  '';
-
   buildPhase = ''
-    chmod +x bffsree
+    make release
   '';
 
   installPhase = ''
     mkdir -p $out/bin
     install -m755 bffsree $out/bin/bffsree
-
-    patchelf \
-      --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)" \
-      $out/bin/bffsree
   '';
 
   meta = {
     description = "Sree Kotay's brainfuck interpreter";
     mainProgram = "bffsree";
-    platforms = ["i686-linux"];
 
     /* No license provided */
     license = lib.licenses.unfree;
